@@ -203,7 +203,7 @@ namespace Oxide.Plugins
         #endregion
 
         #region Command
-        [ConsoleCommand("CardTable.give")]
+        [ConsoleCommand("cardtable.give")]
         private void Cmd(ConsoleSystem.Arg arg)
         {
             if (arg.IsAdmin && arg.Args?.Length > 0)
